@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "./tokens.css";
+@import "./presentation.css";
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body, #root { width: 100%; min-width: 320px; min-height: 100%; margin: 0; }
+body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-hindi), sans-serif; }
+button { font: inherit; }
+::selection { background: var(--color-red); color: white; }

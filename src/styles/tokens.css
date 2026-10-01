@@ -1,0 +1,21 @@
+:root {
+  color-scheme: light;
+  --color-red: #c71f2d;
+  --color-red-dark: #9e1521;
+  --color-ink: #171717;
+  --color-muted: #77736d;
+  --color-paper: #f7f5f0;
+  --color-white: #fff;
+  --color-line: #dedbd4;
+  --font-hindi: "Noto Sans Devanagari";
+  --font-latin: "Manrope";
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4.5rem;
+  --safe-x: clamp(1.25rem, 6.2vw, 7.5rem);
+  --safe-y: clamp(1.25rem, 5.5vh, 4.75rem);
+  --ease-out: cubic-bezier(.2, .75, .25, 1);
+}
